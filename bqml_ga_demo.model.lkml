@@ -1,4 +1,5 @@
-connection: "google_analytics2"
+#connection: "google_analytics2"
+connection: "bigquery_gmm"
 
 # include all the views
 include: "*.view"
