@@ -20,7 +20,9 @@ view: ga_sessions {
 
 
   # SCENARIO 1: Only one property
-  sql_table_name: `bigquery-public-data.google_analytics_sample.ga_sessions_*` ;;
+  #sql_table_name: `bigquery-public-data.google_analytics_sample.ga_sessions_*` ;;
+  sql_table_name: `cisconsulting-project.google_analytics_sample.ga_sessions_*` ;;
+
 
 
   dimension_group: test_timestamp {
